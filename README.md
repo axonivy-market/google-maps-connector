@@ -1,7 +1,7 @@
-# MY-PRODUCT-NAME
+# Google Maps Connector
 
-[![CI Build](https://github.com/axonivy-market/REPO-NAME/actions/workflows/ci.yml/badge.svg)](https://github.com/axonivy-market/REPO-NAME/actions/workflows/ci.yml)
+[![CI Build](https://github.com/axonivy-market/google-maps-connector/actions/workflows/ci.yml/badge.svg)](https://github.com/axonivy-market/google-maps-connector/actions/workflows/ci.yml)
 
-"YOUR SHORT DESCRIPTION GOES HERE"
+Google Maps API lets you customize maps with your own content & imagery for display on web pages & mobile devices. 
 
-Read our [documentation](MY-PRODUCT-NAME-product/README.md).
+Read our [documentation](google-maps-connector-product/README.md).
