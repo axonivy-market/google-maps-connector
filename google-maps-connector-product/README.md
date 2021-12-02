@@ -20,6 +20,10 @@ on web pages and mobile devices. The connector:
 ## Setup
 
 1. Create a new [Google API key](https://developers.google.com/maps/documentation/javascript/get-api-key#creating-api-keys)
-2. Copy the `API Key` into to variables.yaml under `google.map.api.key`.
-![save-keys](images/google-api-key.png)
+2. Copy the API Key into your `variables.yaml`.
 
+```
+Variables:
+
+  google.map.api.key: 'your api key'
+```
