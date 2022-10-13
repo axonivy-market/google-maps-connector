@@ -1,7 +1,9 @@
 {
-  "format" : "9.4.20",
+  "format" : "10.0.0",
   "id" : "1790C4E5BB25B8AA",
-  "data" : "com.axonivy.connector.google.maps.demo.Data",
+  "config" : {
+    "data" : "com.axonivy.connector.google.maps.demo.Data"
+  },
   "elements" : [ {
       "id" : "f0",
       "type" : "RequestStart",
