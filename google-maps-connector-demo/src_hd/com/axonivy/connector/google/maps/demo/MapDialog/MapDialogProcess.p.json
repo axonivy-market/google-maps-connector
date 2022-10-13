@@ -1,8 +1,10 @@
 {
-  "format" : "9.4.20",
+  "format" : "10.0.0",
   "id" : "1790BE16C1C22AD7",
-  "data" : "com.axonivy.connector.google.maps.demo.MapDialog.MapDialogData",
   "kind" : "HTML_DIALOG",
+  "config" : {
+    "data" : "com.axonivy.connector.google.maps.demo.MapDialog.MapDialogData"
+  },
   "elements" : [ {
       "id" : "f0",
       "type" : "HtmlDialogStart",
