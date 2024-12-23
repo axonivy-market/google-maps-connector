@@ -1,4 +1,0 @@
-ViewerData #class
-com.axonivy.connector.google.maps.Viewer #namespace
-apiKey String #field
-apiKey PERSISTENT #fieldModifier
