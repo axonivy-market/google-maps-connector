@@ -1,5 +1,5 @@
 {
-  "format" : "10.0.0",
+  "$schema" : "https://json-schema.axonivy.com/process/12.0.0/process.json",
   "id" : "1790C4E5BB25B8AA",
   "config" : {
     "data" : "com.axonivy.connector.google.maps.demo.Data"
@@ -9,15 +9,18 @@
       "type" : "RequestStart",
       "name" : "start.ivp",
       "config" : {
-        "callSignature" : "start",
-        "outLink" : "start.ivp",
-        "tags" : "demo"
+        "signature" : "start"
       },
+      "tags" : [
+        "demo"
+      ],
       "visual" : {
         "at" : { "x" : 96, "y" : 64 },
         "labelOffset" : { "x" : 9, "y" : 37 }
       },
-      "connect" : { "id" : "f4", "to" : "f3" }
+      "connect" : [
+        { "id" : "f4", "to" : "f3" }
+      ]
     }, {
       "id" : "f1",
       "type" : "TaskEnd",
@@ -29,12 +32,13 @@
       "type" : "DialogCall",
       "name" : "MapDialog",
       "config" : {
-        "dialogId" : "com.axonivy.connector.google.maps.demo.MapDialog",
-        "startMethod" : "start()"
+        "dialog" : "com.axonivy.connector.google.maps.demo.MapDialog:start()"
       },
       "visual" : {
         "at" : { "x" : 216, "y" : 64 }
       },
-      "connect" : { "id" : "f2", "to" : "f1" }
+      "connect" : [
+        { "id" : "f2", "to" : "f1" }
+      ]
     } ]
 }
