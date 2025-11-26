@@ -17,7 +17,7 @@ Der Konnektor:
 1. Dies ist eine Demo für den Google Maps API-Konnektor von Axon Ivy!
    [Dokumentgenerierung](images/example.png)
 
-## Einrichtung
+## Setup
 
 1. Erstellen Sie einen neuen [Google
    API-Schlüssel](https://developers.google.com/maps/documentation/javascript/get-api-key#creating-api-keys).
