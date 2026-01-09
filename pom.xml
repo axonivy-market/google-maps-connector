@@ -7,14 +7,14 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>${project.name}</module>
-    <module>${project.name}-demo</module>
-    <module>${project.name}-product</module>
-    <module>${project.name}-test</module>
+    <module>google-maps-connector</module>
+    <module>google-maps-connector-demo</module>
+    <module>google-maps-connector-product</module>
+    <module>google-maps-connector-test</module>
   </modules>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/axonivy-market/${project.name}.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/axonivy-market/google-maps-connector.git</developerConnection>
     <tag>v10.0.2</tag>
   </scm>
 
