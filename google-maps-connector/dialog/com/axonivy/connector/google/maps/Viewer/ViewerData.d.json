@@ -3,6 +3,7 @@
   "simpleName" : "ViewerData",
   "namespace" : "com.axonivy.connector.google.maps.Viewer",
   "fields" : [ {
-    "name" : "apiKey"
+    "name" : "apiKey",
+    "modifiers" : [ ]
   } ]
 }
